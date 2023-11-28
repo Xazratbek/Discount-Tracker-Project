@@ -20,21 +20,23 @@ The Discount Tracker Project is a web application that helps users track discoun
    ```bash
    git clone https://github.com/yourusername/discount-tracker-project.git
    cd discount-tracker-project
-
 Create a virtual environment and install dependencies:
 
-  python -m venv venv
+bash
+Copy code
+python -m venv venv
 source venv/bin/activate (or venv\Scripts\activate on Windows)
 pip install -r requirements.txt
-
 Apply database migrations:
 
-  python manage.py migrate
-
+bash
+Copy code
+python manage.py migrate
 Run the development server:
 
-  python manage.py runserver
-
+bash
+Copy code
+python manage.py runserver
 Visit http://127.0.0.1:8000/ in your browser to access the application.
 
 Usage
@@ -43,3 +45,11 @@ Create a user profile to save favorite products and receive personalized recomme
 Explore advanced filters to find products based on specific criteria.
 Stay updated on price changes and discounts over time.
 Customize notification preferences to receive alerts for your favorite products.
+Contributing
+Contributions are welcome! If you'd like to contribute to the project, please follow these steps:
+
+Fork the repository.
+Create a new branch for your feature or bug fix.
+Make your changes and commit them.
+Push your changes to your fork.
+Submit a pull request.
