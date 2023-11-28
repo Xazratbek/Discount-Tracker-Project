@@ -20,24 +20,17 @@ The Discount Tracker Project is a web application that helps users track discoun
    ```bash
    git clone https://github.com/yourusername/discount-tracker-project.git
    cd discount-tracker-project
-Create a virtual environment and install dependencies:
 
-bash
-Copy code
+Create a virtual environment and install dependencies:
 python -m venv venv
 source venv/bin/activate (or venv\Scripts\activate on Windows)
 pip install -r requirements.txt
+
 Apply database migrations:
-
-bash
-Copy code
 python manage.py migrate
-Run the development server:
 
-bash
-Copy code
+Run the development service:
 python manage.py runserver
-Visit http://127.0.0.1:8000/ in your browser to access the application.
 
 Usage
 Visit the homepage to browse the list of available products and discounts.
